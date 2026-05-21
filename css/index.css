@@ -35,13 +35,14 @@
 .header-box-nav ul li a:hover::after {
   width: 100%;
 }
-.header-box-resume button {
+.resume-link {
   border: solid var(--site-dark-gray) 1px;
   padding: 8px 16px;
   border-radius: 4px;
   transition: border 0.3s;
+  text-decoration: none;
 }
-.header-box-resume button:hover {
+.resume-link:hover {
   border: solid var(--site-text-color) 1px;
 }
 .header-box-resume div {
